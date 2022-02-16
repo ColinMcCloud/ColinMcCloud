@@ -1,7 +1,7 @@
                                𝗖𝗼𝗹𝗶𝗻𝗠𝗰𝗖𝗹𝗼𝘂𝗱                        
                                ———————————— 
                ,gg,,,          𝗢𝗦: Windows 10, MacOS, Linux, iOS, Android
-           g@@@@@@@$@@g,,      𝗨𝗽𝘁𝗶𝗺𝗲: 14 years, 11 months, 14 days
+           g@@@@@@@$@@g,,      𝗨𝗽𝘁𝗶𝗺𝗲: 14 years, 11 months, 20 days
          g@@@@$M%$$@@@@@gf     𝗛𝗼𝘀𝘁: O'Fallon Township High School
          $$@$&MMM$$@$@@@$@s    𝗜𝗗𝗘: IntelliJ IDEA 2021.1.2, PyCharm 2020.2
         ]$$$$@@@@$|j@@@$@Ff    𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗖𝗦: Java, C#, C, C++, Python, Scala, Kotlin, Ruby, Swift, JS, HTML, CSS
