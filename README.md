@@ -1,7 +1,7 @@
                                𝗖𝗼𝗹𝗶𝗻𝗠𝗰𝗖𝗹𝗼𝘂𝗱                        
                                ———————————— 
                ,gg,,,          𝗢𝗦: Windows 10, MacOS, Linux, iOS, Android
-           g@@@@@@@$@@g,,      𝗨𝗽𝘁𝗶𝗺𝗲: 15 years, 6 months, 1 days
+           g@@@@@@@$@@g,,      𝗨𝗽𝘁𝗶𝗺𝗲: 15 years, 7 months, 22 days
          g@@@@$M%$$@@@@@gf     𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗙𝗼𝗼𝗱: Cinnamon Rolls
          $$@$&MMM$$@$@@@$@s    𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗗𝗿𝗶𝗻𝗸: Bubble Tea (Boba)
         ]$$$$@@@@$|j@@@$@Ff    𝗛𝗼𝘀𝘁: O'Fallon Township High School
@@ -12,7 +12,7 @@
             ]$$l||llMl$        𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲: 
             @L|$llL|l@           - Minecraft Modding (Java & Bedrock)
            ]T|||llljF            - iOS Sideloading
-            |||||||||$k        𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗛𝗮𝗿𝗱𝘄𝗮𝗿𝗲: Overclocking, undervolting
+            |||||||||$k        𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗛𝗮𝗿𝗱𝘄𝗮𝗿𝗲: Mix Old components with new components
            ||||||||lj$$        𝗖𝗼𝗻𝘁𝗮𝗰𝘁:
              ||||\||$L||l$     ————————————
                                𝗘𝗺𝗮𝗶𝗹: colin@themcclouds.com         
