@@ -11,7 +11,7 @@
               ',I"i!i_??---?()}l              💻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗖𝗦: Java/JS, Python, Scala, Ruby, Kotlin, Swift, HTML, CSS
                  :l,:Ii<~+_+[[:.              🌍 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗥𝗟: English, German 
                     .l~_??+>!`                🎨 𝗣𝗿𝗼𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗲𝘀: Photoshop, Premiere Pro, Marketing, Management   
-                  ..',i><~<il:^'.             🤖 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲: Automating Tedious Tasks, Modifying/Homebrewing Old Electronics 
+                  ..',i><~<il:^'.             🤖 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲: Automating Tedious Tasks, Modding/Homebrewing Old Electronics 
                .'`..",;:lI;:,,"^``.           🔌 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗛𝗮𝗿𝗱𝘄𝗮𝗿𝗲: Repairing Broken Consoles/Electronics 
              .'`'..'`^^^^^^"^````''..          
             .'``'.''`''```^```''....'.        — — — — — — — — — — — — — — — — — — —   
