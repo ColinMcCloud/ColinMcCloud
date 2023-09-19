@@ -7,7 +7,7 @@
            ;-._?]`_+>_?]]{)-}{|}-~+'          🍔 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗙𝗼𝗼𝗱: Cinnamon Rolls/Fried Pickles    
            ;-?~];-?~][-;1{[--{)(}_^`          🥤 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗗𝗿𝗶𝗻𝗸: Bubble Tea (Boba)       
             .<_.<_-;<_,,<}}]!+|/{{!.          🏫 𝗛𝗼𝘀𝘁: O'Fallon Township High School   
-             .<-]i-~_[11}}?_({},!}            🔧 𝗜𝗗𝗘: IntelliJ IDEA 2021.1.2, PyCharm 2023.3.2
+             .<-]i-~_[11}}?_({},!}            🔧 𝗜𝗗𝗘: IntelliJ IDEA 2021.1.2, PyCharm 2023.2.1
               ',I"i!i_??---?()}l              💻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗖𝗦: Java/JS, Python, Scala, Ruby, Kotlin, Swift, HTML, CSS
                  :l,:Ii<~+_+[[:.              🌍 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗥𝗟: English, German 
                     .l~_??+>!`                🎨 𝗣𝗿𝗼𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗲𝘀: Photoshop, Premiere Pro, Marketing, Management   
