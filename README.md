@@ -12,7 +12,7 @@
                  :l,:Ii<~+_+[[:.              🌍 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗥𝗟: English, German 
                     .l~_??+>!`                🎨 𝗣𝗿𝗼𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗲𝘀: Photoshop, Premiere Pro, Marketing, Team Management   
                   ..',i><~<il:^'.             🤖 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲: Automating Tasks, Modding/Homebrewing Old Electronics 
-               .'`..",;:lI;:,,"^``.           🔌 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗛𝗮𝗿𝗱𝘄𝗮𝗿𝗲: Building Keyboards, Repairing Broken Consoles/Electronics 
+               .'`..",;:lI;:,,"^``.           🔌 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗛𝗮𝗿𝗱𝘄𝗮𝗿𝗲: Building Keyboards, Repairing Consoles/Electronics 
              .'`'..'`^^^^^^"^````''..          
             .'``'.''`''```^```''....'.        — — — — — — — — — — — — — — — — — — —   
            '`^`'.'''.'``:"'''.`""`'''''       ✉️ Email: colin@themcclouds.com
