@@ -1,0 +1,53 @@
+name: Update Uptime
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Every day at midnight UTC
+  workflow_dispatch:      # Allow manual runs
+
+jobs:
+  update-uptime:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate uptime
+        id: uptime
+        run: |
+          birthday="2007-02-26"
+          today=$(date -u +%F)
+
+          # Calculate full years
+          years=$(($(date -d "$today" +%Y) - $(date -d "$birthday" +%Y)))
+          bday_this_year=$(date -d "$birthday + $years years" +%F)
+          if [[ "$today" < "$bday_this_year" ]]; then
+            years=$((years - 1))
+            bday_this_year=$(date -d "$birthday + $years years" +%F)
+          fi
+
+          # Months
+          months=0
+          while [[ "$(date -d "$bday_this_year + $months months" +%F)" < "$today" ]]; do
+            months=$((months + 1))
+          done
+          months=$((months - 1))
+
+          # Days
+          month_date=$(date -d "$bday_this_year + $months months" +%F)
+          days=$(( ( $(date -d "$today" +%s) - $(date -d "$month_date" +%s) ) / 86400 ))
+
+          echo "UPTIME=$years years, $months months, $days days" >> $GITHUB_ENV
+
+      - name: Replace uptime in README
+        run: |
+          sed -i -E "s/(⏳ 𝗨𝗽𝘁𝗶𝗺𝗲: ).*/\1$UPTIME/" README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update uptime"
+          git push
