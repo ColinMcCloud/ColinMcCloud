@@ -30,7 +30,7 @@ jobs:
           start = datetime.date(2007, 2, 26)
           today = datetime.date.today()
           delta = relativedelta(today, start)
-          print(f'⏳ **Uptime:** {delta.years} years, {delta.months} months, {delta.days} days')
+          print(f'⏳ <strong>Uptime:</strong> {delta.years} years, {delta.months} months, {delta.days} days')
           EOF
           )
 
