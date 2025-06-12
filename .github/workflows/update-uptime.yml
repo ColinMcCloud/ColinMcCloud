@@ -23,14 +23,16 @@ jobs:
 
       - name: Calculate and update uptime inline in README
         run: |
-          UPTIME=$(python3 -c "
+          UPTIME=$(python3 <<EOF
 import datetime
 from dateutil.relativedelta import relativedelta
+
 start = datetime.date(2007, 2, 26)
 today = datetime.date.today()
 delta = relativedelta(today, start)
 print(f'⏳ 𝗨𝗽𝘁𝗶𝗺𝗲: {delta.years} years, {delta.months} months, {delta.days} days')
-")
+EOF
+)
 
           echo "Updating uptime to: $UPTIME"
 
