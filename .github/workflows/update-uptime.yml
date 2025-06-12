@@ -2,7 +2,7 @@ name: ⏳ Update Uptime in README Inline
 
 on:
   schedule:
-    - cron: "0 5 * * *"  # Every day at 5:00 AM UTC (~midnight CST)
+    - cron: "0 6 * * *"  # Every day at 1:00 AM UTC (~midnight CST)
   workflow_dispatch:     # Manual trigger option
 
 jobs:
