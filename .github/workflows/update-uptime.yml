@@ -1,9 +1,9 @@
-name: ⏳ Update Uptime in README
+name: ⏳ Update Uptime in README Inline
 
 on:
   schedule:
-    - cron: "0 5 * * *"  # Every day at midnight UTC
-  workflow_dispatch:     # Allow manual trigger too
+    - cron: "0 6 * * *"  # Every day at 1:00 AM UTC (~midnight CST)
+  workflow_dispatch:     # Manual trigger option
 
 jobs:
   update-uptime:
@@ -18,13 +18,11 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dateutil
+      - name: Install python-dateutil
         run: pip install python-dateutil
 
-      - name: Calculate and update uptime in README
+      - name: Calculate and update uptime inline in README
         run: |
-          START_DATE="2007-02-26"
-
           UPTIME=$(python3 -c "
 import datetime
 from dateutil.relativedelta import relativedelta
@@ -34,20 +32,19 @@ delta = relativedelta(today, start)
 print(f'⏳ Uptime: {delta.years} years, {delta.months} months, {delta.days} days')
 ")
 
-          echo "Uptime: $UPTIME"
+          echo "Updating uptime to: $UPTIME"
 
-          awk -v new_line="$UPTIME" '
-            BEGIN {found=0}
-            /<!--START_UPTIME-->/ {print; found=1; next}
-            /<!--END_UPTIME-->/ {found=0; print; next}
-            !found {print}
-            found && /./ {next}
-            found && !/./ {print new_line}
-          ' README.md > tmp && mv tmp README.md
+          # Inline replace between <!--START_UPTIME--> and <!--END_UPTIME-->
+          sed -i "s|<!--START_UPTIME-->.*<!--END_UPTIME-->|<!--START_UPTIME-->$UPTIME<!--END_UPTIME-->|" README.md
 
-      - name: Commit and push if changed
+      - name: Commit and push changes if any
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git diff --quiet && echo "No changes to commit" || git commit -m "🔁 update uptime" && git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🔁 Update uptime inline"
+            git push
+          fi
