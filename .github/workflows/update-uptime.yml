@@ -1,9 +1,9 @@
-name: Update Uptime
+name: ⏳ Update Uptime in README
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Every day at midnight UTC
-  workflow_dispatch:      # Allow manual runs
+    - cron: "0 0 * * *"  # Every day at midnight UTC
+  workflow_dispatch:     # Allow manual trigger too
 
 jobs:
   update-uptime:
@@ -13,41 +13,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Calculate uptime
-        id: uptime
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dateutil
+        run: pip install python-dateutil
+
+      - name: Calculate and update uptime in README
         run: |
-          birthday="2007-02-26"
-          today=$(date -u +%F)
+          START_DATE="2007-02-26"
 
-          # Calculate full years
-          years=$(($(date -d "$today" +%Y) - $(date -d "$birthday" +%Y)))
-          bday_this_year=$(date -d "$birthday + $years years" +%F)
-          if [[ "$today" < "$bday_this_year" ]]; then
-            years=$((years - 1))
-            bday_this_year=$(date -d "$birthday + $years years" +%F)
-          fi
+          UPTIME=$(python3 -c "
+import datetime
+from dateutil.relativedelta import relativedelta
+start = datetime.date(2007, 2, 26)
+today = datetime.date.today()
+delta = relativedelta(today, start)
+print(f'⏳ Uptime: {delta.years} years, {delta.months} months, {delta.days} days')
+")
 
-          # Months
-          months=0
-          while [[ "$(date -d "$bday_this_year + $months months" +%F)" < "$today" ]]; do
-            months=$((months + 1))
-          done
-          months=$((months - 1))
+          echo "Uptime: $UPTIME"
 
-          # Days
-          month_date=$(date -d "$bday_this_year + $months months" +%F)
-          days=$(( ( $(date -d "$today" +%s) - $(date -d "$month_date" +%s) ) / 86400 ))
-
-          echo "UPTIME=$years years, $months months, $days days" >> $GITHUB_ENV
-
-      - name: Replace uptime in README
-        run: |
-          sed -i -E "s/(⏳ 𝗨𝗽𝘁𝗶𝗺𝗲: ).*/\1$UPTIME/" README.md
+          awk -v new_line="$UPTIME" '
+            BEGIN {found=0}
+            /<!--START_UPTIME-->/ {print; found=1; next}
+            /<!--END_UPTIME-->/ {found=0; print; next}
+            !found {print}
+            found && /./ {next}
+            found && !/./ {print new_line}
+          ' README.md > tmp && mv tmp README.md
 
       - name: Commit and push if changed
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git diff --cached --quiet || git commit -m "chore: update uptime"
-          git push
+          git diff --quiet && echo "No changes to commit" || git commit -m "🔁 update uptime" && git push
