@@ -27,7 +27,7 @@ jobs:
           import datetime
           from dateutil.relativedelta import relativedelta
 
-          start = datetime.date(2007, 2, 26)
+          start = datetime.date(2007, 2, 13)
           today = datetime.date.today()
           delta = relativedelta(today, start)
 
