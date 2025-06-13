@@ -3,7 +3,7 @@ name: ⏳ Update Uptime in README Inline
 on:
   schedule:
     - cron: "0 5 * * *"  # Every day at 5:00 AM UTC (~midnight CST)
-  workflow_dispatch:     # Manual trigger option
+  workflow_dispatch:      # Manual trigger option
 
 jobs:
   update-uptime:
@@ -23,32 +23,35 @@ jobs:
 
       - name: Calculate and update uptime inline in README
         run: |
-          UPTIME=$(python3 -c "
-import datetime
-from dateutil.relativedelta import relativedelta
-start = datetime.date(2007, 2, 26)
-today = datetime.date.today()
-delta = relativedelta(today, start)
-years = f'{delta.years} year' + ('s' if delta.years != 1 else '')
-months = f'{delta.months} month' + ('s' if delta.months != 1 else '')
-days = f'{delta.days} day' + ('s' if delta.days != 1 else '')
-print(f'⏳ <strong>Uptime:</strong> {years}, {months}, {days}')
-")
+          UPTIME=$(python3 <<EOF
+          import datetime
+          from dateutil.relativedelta import relativedelta
 
+          start = datetime.date(2007, 2, 26)
+          today = datetime.date.today()
+          delta = relativedelta(today, start)
+
+          years = f'{delta.years} year' + ('s' if delta.years != 1 else '')
+          months = f'{delta.months} month' + ('s' if delta.months != 1 else '')
+          days = f'{delta.days} day' + ('s' if delta.days != 1 else '')
+
+          print(f'⏳ <strong>Uptime:</strong> {years}, {months}, {days}')
+          EOF
+          )
           echo "Updating uptime to: $UPTIME"
 
-          # Inline replace between <!--START_UPTIME--> and <!--END_UPTIME-->
-          sed -i "s|<!--START_UPTIME-->.*<!--END_UPTIME-->|<!--START_UPTIME-->$UPTIME<!--END_UPTIME-->|" README.md
+          ESCAPED_UPTIME=$(printf '%s\n' "$UPTIME" | sed 's/[\/&]/\\&/g')
+          sed -i "s#<!--START_UPTIME-->.*<!--END_UPTIME-->#<!--START_UPTIME-->$ESCAPED_UPTIME<!--END_UPTIME-->#" README.md
 
       - name: Commit and push changes if any
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
+
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m '🔁 Update uptime inline'
+            git commit -m "🔁 Update uptime inline"
             git push
           fi
-  
