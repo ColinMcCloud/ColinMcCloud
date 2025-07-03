@@ -3,7 +3,7 @@
               =-:--=+=:::::::::-                — — — — — — — — — — — — — — — — — — —    
              ===--*******--:::::-=                   
            +++++========+-+++++++=--            🖥️ 𝗢𝗦: Windows 7 & 10, MacOS, Linux, iOS, Android
-          ++**+**+=------=++++++++++            <!--START_UPTIME-->⏳ <strong>Uptime:</strong> 18 years, 4 months, 6 days<!--END_UPTIME-->
+          ++**+**+=------=++++++++++            <!--START_UPTIME-->⏳ <strong>Uptime:</strong> 18 years, 4 months, 7 days<!--END_UPTIME-->
            *###**==----------=++==++            🍔 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗙𝗼𝗼𝗱: Cinnamon Rolls / Fried Pickles    
            #***+****+-+*******+=++=             🥤 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗗𝗿𝗶𝗻𝗸: Bubble Tea (Boba)       
            *++=---==-::------::==               🏫 𝗛𝗼𝘀𝘁: Southern Illinois University Edwardsville   
