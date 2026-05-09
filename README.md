@@ -8,15 +8,15 @@
            #***+****+-+*******+=++=             🥤 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗗𝗿𝗶𝗻𝗸: Bubble Tea (Boba)       
            *++=---==-::------::==               🏫 𝗛𝗼𝘀𝘁: Southern Illinois University Edwardsville   
             +===--==+++=-::::::=                🔧 𝗜𝗗𝗘: IntelliJ IDEA 2026.1.1, PyCharm 2026.1.1
-             **==+=++*+-----+                   💻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗖𝗦: Java, <abbr title="JavaScript">JS</abbr>, <abbr title="TypeScript">TS</abbr> | Python, Scala, Ruby | Kotlin, Swift | HTML, CSS
-              #++===++----=+                    🌍 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗥𝗟: English, German 
-              *=++========-*                    🎨 𝗣𝗿𝗼𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗲𝘀: Photoshop, Premiere Pro, Marketing, Team Management   
-          %%#%#*=+++***+=--+#                   🤖 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲: Automating Tasks, Modding/Homebrewing Old Electronics 
-      ####%%%%#:=+=++++==-.####**               🔌 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗛𝗮𝗿𝗱𝘄𝗮𝗿𝗲: Building Keyboards, Repairing Consoles/Electronics 
-  =###%%%%%%%%%-:+++*++=-.*########*          
-%%%%%%%%%%%%%%%=::++++=::=######%%###**         — — — — — — — — — — — — — — — — — — —   
-%%%%%%%%%%%%%%#:.==-:::-#%%%%%%%%######*#*      ✉️ 𝗘𝗺𝗮𝗶𝗹: colin@betterbedwars.com
-%%%%%%%%%%%%%%%+**=--+-:#%%%%%%%%%%#####%%#     🌐 𝗗𝗶𝘀𝗰𝗼𝗿𝗱: colin.dev
-%%%%%%%%%%%%%%%--*=-+=-*%%%%%%%%%%%%%%%%%%%     🚀 𝗡𝗲𝘄𝗲𝘀𝘁 𝗣𝗿𝗼𝗷𝗲𝗰𝘁: Better Bedwars.
-@@%%%%%%%%%%%%#-=+++=:+%%%%%%%%%%%%%%%%%%%#     
+             **==+=++*+-----+                   💻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗪𝗲𝗯: <abbr title="JavaScript">JS</abbr>, <abbr title="TypeScript">TS</abbr>, HTML, CSS
+              #++===++----=+                    ⚙️ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗔𝗽𝗽: Java, Python, Scala, Ruby, Kotlin, Swift
+              *=++========-*                    🌍 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗥𝗟: English, German   
+          %%#%#*=+++***+=--+#                   🎨 𝗣𝗿𝗼𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗲𝘀: Photoshop, Premiere Pro, Marketing, Team Management
+      ####%%%%#:=+=++++==-.####**               🤖 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲: Automating Tasks, Modding/Homebrewing Old Electronics 
+  =###%%%%%%%%%-:+++*++=-.*########*            🔌 𝗛𝗼𝗯𝗯𝗶𝗲𝘀.𝗛𝗮𝗿𝗱𝘄𝗮𝗿𝗲: Building Keyboards, Repairing Consoles/Electronics
+%%%%%%%%%%%%%%%=::++++=::=######%%###**            
+%%%%%%%%%%%%%%#:.==-:::-#%%%%%%%%######*#*      — — — — — — — — — — — — — — — — — — —
+%%%%%%%%%%%%%%%+**=--+-:#%%%%%%%%%%#####%%#     ✉️ 𝗘𝗺𝗮𝗶𝗹: colin@betterbedwars.com
+%%%%%%%%%%%%%%%--*=-+=-*%%%%%%%%%%%%%%%%%%%     🌐 𝗗𝗶𝘀𝗰𝗼𝗿𝗱: colin.dev
+@@%%%%%%%%%%%%#-=+++=:+%%%%%%%%%%%%%%%%%%%#     🚀 𝗡𝗲𝘄𝗲𝘀𝘁 𝗣𝗿𝗼𝗷𝗲𝗰𝘁: Better Bedwars.
 </pre>
