@@ -7,7 +7,7 @@
            *###**==----------=++==++            🍔 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗙𝗼𝗼𝗱: Cinnamon Rolls / Fried Pickles    
            #***+****+-+*******+=++=             🥤 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗗𝗿𝗶𝗻𝗸: Bubble Tea (Boba)       
            *++=---==-::------::==               🏫 𝗛𝗼𝘀𝘁: Southern Illinois University Edwardsville   
-            +===--==+++=-::::::=                🔧 𝗜𝗗𝗘: IntelliJ IDEA 2021.1.2, PyCharm 2022.3.2
+            +===--==+++=-::::::=                🔧 𝗜𝗗𝗘: IntelliJ IDEA 2026.1.1, PyCharm 2026.1.1
              **==+=++*+-----+                   💻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗖𝗦: Java/JS, Python, Scala, Ruby, Kotlin, Swift, HTML, CSS
               #++===++----=+                    🌍 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗥𝗟: English, German 
               *=++========-*                    🎨 𝗣𝗿𝗼𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗲𝘀: Photoshop, Premiere Pro, Marketing, Team Management   
