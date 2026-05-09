@@ -8,7 +8,7 @@
            #***+****+-+*******+=++=             🥤 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗗𝗿𝗶𝗻𝗸: Bubble Tea (Boba)       
            *++=---==-::------::==               🏫 𝗛𝗼𝘀𝘁: Southern Illinois University Edwardsville   
             +===--==+++=-::::::=                🔧 𝗜𝗗𝗘: IntelliJ IDEA 2026.1.1, PyCharm 2026.1.1
-             **==+=++*+-----+                   💻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗪𝗲𝗯: <abbr title="JavaScript">JS</abbr>, <abbr title="TypeScript">TS</abbr>, HTML, CSS
+             **==+=++*+-----+                   💻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗪𝗲𝗯: JavaScript, TypeScript, HTML, CSS
               #++===++----=+                    ⚙️ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗔𝗽𝗽: Java, Python, Scala, Ruby, Kotlin, Swift
               *=++========-*                    🌍 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲.𝗥𝗟: English, German   
           %%#%#*=+++***+=--+#                   🎨 𝗣𝗿𝗼𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗲𝘀: Photoshop, Premiere Pro, Marketing, Team Management
